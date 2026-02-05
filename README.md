@@ -51,3 +51,16 @@ All traffic is logged to `api_logs.txt` in the root directory. The log includes:
 - Response Code
 - Request Time Gap (Placeholder)
 - Label (Default: Unknown)
+
+### Sample Log Data
+
+Here is a snippet of what the `api_logs.txt` file looks like:
+
+```csv
+Timestamp,IP Address,Endpoint,HTTP Method,Response Code,Request Time Gap,Label
+2026-02-05T02:44:10.698723,127.0.0.1,/login,POST,200,0,Unknown
+2026-02-05T02:44:29.200568,127.0.0.1,/search,GET,200,0,Unknown
+2026-02-05T02:45:20.451665,127.0.0.1,/login,POST,200,0,Unknown
+2026-02-05T02:45:36.588449,127.0.0.1,/search,GET,200,0,Unknown
+2026-02-05T02:45:49.722016,127.0.0.1,/login,POST,200,0,Unknown
+```
